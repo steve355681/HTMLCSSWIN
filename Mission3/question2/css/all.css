@@ -1,0 +1,75 @@
+
+/* 引入字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+@import "./base/reset.css";
+@import "./utils/variable.css";
+@import "./base/base.css";
+@import "./utils/utility.css";
+
+@import "./components/breadcrumb.css";
+@import "./components/btn.css";
+
+/* @import "reset.css";
+@import "variable.css";
+@import "base.css";
+@import "utility.css"; */
+
+/* 元件 */
+/* .breadcrumb-item + .breadcrumb-item::before{
+	content: '/';
+	padding-right: 12px;
+	padding-left: 12px;
+	color: var(--neutral-300);
+	font-weight: 700;
+}
+
+
+.breadcrumb-item{
+	font-weight: 500;
+}
+
+.breadcrumb-link{
+	color: var(--neutral-600);
+}
+
+@media(max-width:767px){
+	.breadcrumb-item + .breadcrumb-item::before{
+	padding: 0 8px;
+	}
+	.breadcrumb-item{
+		font-size: 14px;
+	}
+} */
+
+/* .btn{
+	border-radius: 4px;
+	padding: 12px 24px;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 500;
+	cursor: pointer;
+	border: none;
+	background: transparent;
+}
+
+@media(max-width:576px){
+	.btn{
+		padding: 8px 16px;
+	}
+}
+
+.btn-black{
+	background: var(--neutral-900);
+	color: var(--neutral-0);
+}
+
+
+.btn-white{
+	border: 1px solid var(--neutral-900);
+} */
+
+.footer{
+    text-align: center;
+	padding-top: 32px;
+	margin-bottom: 64px;
+}
