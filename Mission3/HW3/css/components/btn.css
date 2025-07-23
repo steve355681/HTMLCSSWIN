@@ -1,0 +1,39 @@
+.btn{
+	border-radius: 4px;
+	padding: 12px 24px;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 500;
+	cursor: pointer;
+	border: none;
+	background: transparent;
+}
+
+@media(max-width:576px){
+	.btn{
+		padding: 8px 16px;
+	}
+}
+
+.btn-black{
+	background: var(--neutral-900);
+	color: var(--neutral-0);
+}
+
+.btn-black:hover{
+	background: var(--neutral-700);
+}
+
+
+.btn-white{
+	border: 1px solid var(--neutral-900);
+}
+
+.btn-white:hover{
+	background: var(--neutral-900);
+	color: var(--neutral-0);
+}
+
+.btn:disabled {
+  cursor: default;
+}

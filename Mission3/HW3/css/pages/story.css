@@ -2,6 +2,8 @@
 .container-brand-story{
 	max-width: 856px;
 	margin: 0 auto;
+	padding-right: 12px;
+	padding-left: 12px;
 }
 
 @media(max-width: 767px){
@@ -36,6 +38,14 @@
     
 }
 
+/* @media(max-width: 576px){
+    .header{
+        padding: 87px 0;
+        background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true);
+    }
+    
+} */
+
 .quote{
 	border-radius: 16px;
 	text-align: center;
@@ -47,15 +57,22 @@
 	}
 }
 
+
 .brand-intro img{
-	width: 1076px;
-    margin-bottom: 48px;
+	max-width: 1052px;
+	margin-right: -110px;
+	margin-left: -110px;
+}
+
+/* .brand-intro img{
+	width: 1052px;
 	margin-right: -110px;
 	margin-left: -110px;	
     max-width: none;
-}
+} */
 
-@media (max-width: 767px) {
+/* 圖片在縮放到原本大小後，先縮放到container-brand-story的大小，避免產生額外的滾動X軸*/
+@media (max-width: 1052px) {
     .brand-intro img {
         width: 100%;
         max-width: 100%;
@@ -63,6 +80,17 @@
 		margin-bottom: 16px;
     }
 }
+
+
+
+/* @media (max-width: 767px) {
+    .brand-intro img {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+		margin-bottom: 16px;
+    }
+} */
 
 
 

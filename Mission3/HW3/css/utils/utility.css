@@ -109,9 +109,10 @@ body{
 	/* 因為col會左右padding往外擴，所以兩側row要加負margin往內縮 */	
 }
 
+
 @media(max-width:767px){
-	.row{
-		margin-right: -16x;
+	.row-md{
+		margin-right: -6px;
 		margin-left: -6px;
 	}
 	.colx1-md{
@@ -355,6 +356,10 @@ body{
 }
 
 @media(max-width:767px){
+	.px12-md{
+		padding-right: 12px;
+		padding-left: 12px;
+	}
 	.pb32-md{
 		padding-bottom: 32px;
 	}
@@ -362,11 +367,19 @@ body{
 		padding: 24px;
 	}
 	.py16-md{
+		padding-top: 16px;
+		padding-bottom: 16px;
+	}
+	/* .py16-md{
 		padding: 16px 0;
-	}
+	} */
 	.py32-md{
-		padding: 32px 0;
+		padding-top: 32px;
+		padding-bottom: 32px;
 	}
+	/* .py32-md{
+		padding: 32px 0;
+	} */
 	.d-none-md{
 		display: none;
 	}
